@@ -134,7 +134,65 @@
     justify-content: center;
 }
 
+.placeholder2 {
+    padding-right: 5rem
+}
+
 /* Add these media queries at the end of your existing CSS */
+@media screen and (max-width: 1024px) {
+    #portfolio {
+        flex-direction: column;
+    }
+
+    .placeholder2 {
+        padding-right: 0;
+    }
+
+    #portleft {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 20px;
+    }
+
+    #portright {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #portright > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience_box > div {
+        width: 100% !important;
+    }
+
+    .projects, .publications {
+        width: 100%;
+        max-width: 600px; /* Adjust this value as needed */
+    }
+
+    .initBoxesLeft, .initBoxesRight {
+        transform: translateX(0);
+    }
+
+    #checkpoints {
+        align-items: center;
+    }
+
+    /*.text-left {*/
+    /*    text-align: center;*/
+    /*}*/
+}
 
 @media screen and (max-width: 768px) {
     #portfolio {

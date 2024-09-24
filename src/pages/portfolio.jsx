@@ -136,7 +136,7 @@ export default function MyPortfolio() {
                 ref={portRightRef}
             >
                 {/* description */}
-                <div id="about" className="p-20 pr-40 pt-40">
+                <div id="about" className="p-20 pt-40">
                     <p className="initBoxesRight font text-left border-b-2 border-blue-500">
                         I am a <strong className="under_score">recent Computer Science graduate</strong> from University at Buffalo,
                         class of May 2024, with a goal to be a full stack engineer.
@@ -156,7 +156,7 @@ export default function MyPortfolio() {
                     </p>
                 </div>
                 {/* experience */}
-                <div id="experience" className="pr-40 pt-20 pb-20">
+                <div id="experience" className="placeholder2 text-left pt-20 pb-20">
                     <div className="experience_box w-full mb-10 font2">
                         <div className="flex px-2.5 w-1/4">
                             10/2023 - 08/2024
@@ -221,7 +221,7 @@ export default function MyPortfolio() {
                         </div>
                     </div>
                 </div>
-                <div id="projects" className="p-20 pr-40 text-center font">
+                <div id="projects" className="p-20 text-center font">
                     <div className="text-2xl mb-5">
                         <div className="border-b-2 border-blue-500">
                             Projects
@@ -300,7 +300,7 @@ export default function MyPortfolio() {
                         </div>
                     </div>
                 </div>
-                <div id="publications" className="p-20 pr-40 text-center font mb-48">
+                <div id="publications" className="p-20 text-center font mb-48">
                     <div className="text-2xl mb-5">
                         <div className="border-b-2 border-blue-500 mb-5">
                             Publications
