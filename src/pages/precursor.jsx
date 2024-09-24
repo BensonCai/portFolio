@@ -27,7 +27,7 @@ export default function Precursor() {
                     className={`precursor`}
                     onClick={handleClick}
                 >
-                    <span className="front">Start</span>
+                    <span className="front" style={{color: "#efe9df"}}>Start</span>
                 </button>
             </div>
         </div>

@@ -117,7 +117,7 @@ export default function MyPortfolio() {
                         --- Upcoming Publications
                     </button>
                 </div>
-                <div className="initBoxesLeft flex justify-center space-x-4 mt-auto p-28">
+                <div className="initBoxesLeft flex placeholder space-x-4 mt-auto p-28">
                     {/* LinkedIn Icon */}
                     <a href="https://www.linkedin.com/in/benson-cai-762667200/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin text-2xl hover:text-blue-600 transition-colors"></i>
