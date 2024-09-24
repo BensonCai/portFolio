@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import {Button, Tooltip} from "@mui/material";
+import {Tooltip} from "@mui/material";
 
 export default function MyPortfolio() {
     const [activeSection, setActiveSection] = useState('about');
