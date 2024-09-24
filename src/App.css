@@ -1,38 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+:root {
+    /* EFE9DF */
+    --main-color: #efe9df;
+    --font-color: #cec9c0;
+    --date-color: #a9a49a;
+    --important-text: #8AAAE5;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#portfolio {
+    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+    min-height: 100vh; /* Ensure it takes at least the full height */
+    display: flex;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#portleft {
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between the text and the icons */
+    padding: 28px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding is included in total width/height */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#portright {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.mainfont {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--font-color);
+}
+
+.under_score {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--important-text);
+}
+
+.font2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--date-color);
+}
+
+.description {
+    height: auto;
+    /*border: 2px solid black;*/
+}
+
+.experience_box {
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1.33s ease, transform 1.33s ease;
+}
+
+.initBoxesLeft {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1.33s;
+}
+
+.initBoxesRight {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1.33s;
+}
+
+.experience_box[data-animated="true"],
+.initBoxesLeft[data-animated="true"],
+.initBoxesRight[data-animated="true"],
+.projects[data-animated="true"],
+.publications[data-animated="true"] {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.checkpoint {
+    transition: font-weight 0.3s ease;
+}
+
+.checkpoint.font-bold {
+    font-weight: bold;
+}
+
+.projects {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adds a glassy blur effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D look */
+    padding: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1.33s;
+
+}
+
+.projects:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6); /* Increase shadow for a lifted effect */
+}
+
+.publications {
+    opacity: 0;
+    transform: translateX(100px);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity 1.33s;
+
 }
