@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../stylesheets/precursor.css"
-import backgroundVideo from '../background.mp4';
 import { useNavigate } from 'react-router-dom';
 
 export default function Precursor() {

@@ -187,7 +187,7 @@ export default function MyPortfolio() {
                                 <li>Optimized the data scraping process by rewriting the existing scraper, resulting in a 40% increase in efficiency and reducing processing time by 25%</li>
                                 <li>Implemented error handling mechanisms within the scraper code to ensure accurate data extraction from each profile, reducing errors by 80%</li>
                                 <li>Enhanced the scraper's architecture, leading to more modular and maintainable code, which facilitated easier updates and future improvements</li>
-                                {/*<li>The project is maintained on Github and is used during bi-weekly stand-up meetings to collaborate and stay on task</li>*/}
+                                {/*<li>The project is maintained on GitHub and is used during bi-weekly stand-up meetings to collaborate and stay on task</li>*/}
                             </ul>
                         </div>
                     </div>
