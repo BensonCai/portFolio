@@ -332,6 +332,10 @@ export default function MyPortfolio() {
                         </div>
                         <br/>
                         <div>
+                            Warning: This is early stage, I have not made it fully mobile friendly yet. Try it on PC!
+                        </div>
+                        <br/>
+                        <div>
                             Stack: React, CSS, Flask, MongoDB
                         </div>
                     </div>
