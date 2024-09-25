@@ -244,6 +244,10 @@ export default function MyPortfolio() {
                             </a>
                             , who is currently pursuing his PhD in Human Factors and Ergonomics, for use in his dissertation.
                         </div>
+                        <br/>
+                        <div>
+                            Stack: React, HTML, CSS
+                        </div>
                     </div>
                     <div className="projects mb-10">
                         <div className="text-xl mb-2 italic mainfont">
@@ -263,6 +267,10 @@ export default function MyPortfolio() {
                             <a href="https://www.linkedin.com/in/connor-wurst-6a0416129/" target="_blank" rel="noopener noreferrer">
                                 <strong className="under_score"> <u>Connor Wurst</u> </strong>
                             </a>
+                        </div>
+                        <br/>
+                        <div>
+                            Stack: React, HTML, CSS, EmailJS
                         </div>
                     </div>
                     <div className="projects mb-10">
@@ -285,18 +293,46 @@ export default function MyPortfolio() {
                             </a>
                             at the time
                         </div>
+                        <br/>
+                        <div>
+                            Stack: Python, Plotly Dash
+                        </div>
                     </div>
-                    <div className="projects mb-20">
+                    <div className="projects mb-10">
                         <div className="text-xl mb-2 italic mainfont">
                             RoomAid
                             <a href="https://github.com/cse442-at-ub/project_s23-php-haters?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">
                                 <strong className="under_score"> <u>GitHub</u></strong>
+                            </a>
+                            <a href="https://www-student.cse.buffalo.edu/CSE442-542/2023-Spring/cse-442ae/Sprint_4/login.php" target="_blank" rel="noopener noreferrer">
+                                <strong className="under_score"> & <u>Link to Site</u></strong>
                             </a>
                         </div>
                         <div>
                             While still in school, I collaborated with a team of five to develop a web application designed to help
                             individuals with roommates maintain a more organized and well-tracked living environment.
                             It may not look perfect, but it gets the job done :)
+                        </div>
+                        <br/>
+                        <div>
+                            Stack: HTML, CSS, PHP, MySQLi
+                        </div>
+                    </div>
+                    <div className="projects mb-20">
+                        <div className="text-xl mb-2 italic mainfont">
+                            Eye Eat
+                            <a href="https://eye-eat.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <strong className="under_score"> <u>Link to Site</u></strong>
+                            </a>
+                        </div>
+                        <div>
+                            I created this in a month with the idea of trying to make a food app that appeals to what people usually look for; visuals.
+                            Since people usually eat with their eyes first, I wanted to make a way to search for restaurants and see pictures first without
+                            a block of text.
+                        </div>
+                        <br/>
+                        <div>
+                            Stack: React, CSS, Flask, MongoDB
                         </div>
                     </div>
                 </div>
