@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../stylesheets/precursor.css"
 import { useNavigate } from 'react-router-dom';
+import Rain from "../components/rain";
 
 export default function Precursor() {
     const [isAnimating, setIsAnimating] = useState(false);
@@ -22,8 +23,9 @@ export default function Precursor() {
 
     return (
         <div id="precursor-background" className="w-screen h-screen">
+            <Rain />
             <div className={`precursorContainer ${isLoaded ? 'loaded' : ''} ${isAnimating ? 'slide-out' : ''}`}>
-                <button 
+                <button
                     className={`precursor`}
                     onClick={handleClick}
                 >

@@ -10,11 +10,11 @@
 
 .App {
     text-align: center;
-    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+    background: linear-gradient(to bottom, #202020, #111119);
 }
 
 #portfolio {
-    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+    background: linear-gradient(to bottom, #202020, #111119);
     min-height: 100vh; /* Ensure it takes at least the full height */
     display: flex;
     flex-direction: row;
